@@ -1,0 +1,5 @@
+<div class="slider">
+  <button (click)="showPrevImage()">Anterior</button>
+  <img [src]="'assets/images/' + images[currentIndex]" alt="Imagen {{currentIndex + 1}}">
+  <button (click)="showNextImage()">Siguiente</button>
+</div>
